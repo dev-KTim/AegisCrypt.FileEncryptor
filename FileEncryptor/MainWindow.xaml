@@ -1,0 +1,154 @@
+﻿<Window x:Class="FileEncryptor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AES File Decryptor" 
+        Height="400" 
+        Width="600" 
+        ResizeMode="NoResize">
+
+    <Window.Background>
+        <SolidColorBrush Color="#000000" />
+    </Window.Background>
+
+    <Window.Resources>
+        
+<!-- buttons style (all three) -->
+        
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="ButtonBorder" 
+                                Background="Black"
+                                BorderBrush="MediumPurple"
+                                BorderThickness="5"
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Foreground" Value="MediumPurple"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <!-- percentage "scale maximum" on button while:hovered -->
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform x:Name="scaleTransformHover" ScaleX="1.2" ScaleY="1.2" />
+                        </Setter.Value>
+                    </Setter>
+
+                    <!-- get bigger when hover -->
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                    To="1.2" Duration="0:0:0.8">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuadraticEase EasingMode="EaseInOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                    To="1.2" Duration="0:0:1.0">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuadraticEase EasingMode="EaseInOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                </Trigger>
+
+                <Trigger Property="IsMouseOver" Value="False">
+                    <!-- get smaller when NO:hover -->
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform x:Name="scaleTransformDefault" ScaleX="1" ScaleY="1" />
+                        </Setter.Value>
+                    </Setter>
+
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                    To="1" Duration="0:0:0.8">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuadraticEase EasingMode="EaseInOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                    To="1" Duration="0:0:1.0">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuadraticEase EasingMode="EaseInOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    
+    
+<!-- grid/text(style) -->
+    
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="All Data Verschlüsselungsprogramm"
+                   FontSize="25"
+                   FontWeight="Bold"
+                   Foreground="MediumPurple"
+                   HorizontalAlignment="Center"
+                   Margin="0,10" />
+
+        <StackPanel Grid.Row="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center" Height="176" Width="287">
+            <!-- button text: encrypt -->
+            <Button Name="EncryptButton" 
+                    Content="Datei verschlüsseln" 
+                    Width="250" 
+                    Height="45"
+                    Margin="5" 
+                    FontSize="18"
+                    FontWeight="SemiBold"
+                    Click="EncryptButton_Click" 
+                    RenderTransformOrigin="0.5,0.5" />
+
+            <!-- button text: decrypt -->
+            <Button Name="DecryptButton" 
+                    Content="Datei entschlüsseln" 
+                    Width="250"
+                    Height="45"
+                    Margin="5" 
+                    FontSize="18"
+                    FontWeight="SemiBold"
+                    Click="DecryptButton_Click"
+                    RenderTransformOrigin="0.5,0.5" />
+
+            <!-- button text: exit -->
+            <Button Name="ExitButton" 
+                    Content="Beenden" 
+                    Width="250"
+                    Height="45"
+                    Margin="5" 
+                    FontSize="18"
+                    FontWeight="SemiBold" 
+                    Click="ExitButton_Click"
+                    RenderTransformOrigin="0.5,0.5" />
+        </StackPanel>
+    </Grid>
+</Window>
