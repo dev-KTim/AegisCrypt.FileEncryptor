@@ -1,4 +1,4 @@
-# CS-FileEncryptor
+# AegisCrypt - Advanced File Encryptor
 
 ![UI Screenshot](screenshot.png)
 
