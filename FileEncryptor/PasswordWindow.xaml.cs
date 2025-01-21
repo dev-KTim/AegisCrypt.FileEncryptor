@@ -1,7 +1,6 @@
 ﻿using System.Windows;
 
-namespace FileEncryptor
-{
+namespace AegisCrypt;
     public partial class PasswordWindow : Window
     {
         public string Message { get; }
@@ -22,4 +21,4 @@ namespace FileEncryptor
             Close();
         }
     }
-}
+

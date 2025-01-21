@@ -22,3 +22,27 @@ C:\Users\timko\source\repos\FileEncryptor\FileEncryptor\obj\Debug\net9.0-windows
 C:\Users\timko\source\repos\FileEncryptor\FileEncryptor\obj\Debug\net9.0-windows\App.baml
 C:\Users\timko\source\repos\FileEncryptor\FileEncryptor\obj\Debug\net9.0-windows\Errorwindow.baml
 C:\Users\timko\source\repos\FileEncryptor\FileEncryptor\obj\Debug\net9.0-windows\Errorwindow.g.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\bin\Debug\net9.0-windows\FileEncryptor.exe
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\bin\Debug\net9.0-windows\FileEncryptor.deps.json
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\bin\Debug\net9.0-windows\FileEncryptor.runtimeconfig.json
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\bin\Debug\net9.0-windows\FileEncryptor.dll
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\bin\Debug\net9.0-windows\FileEncryptor.pdb
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\Errorwindow.baml
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\PasswordWindow.baml
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\App.baml
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\Errorwindow.g.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\PasswordWindow.g.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor_MarkupCompile.cache
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.g.resources
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.AssemblyInfoInputs.cache
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.AssemblyInfo.cs
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.csproj.CoreCompileInputs.cache
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.dll
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\refint\FileEncryptor.dll
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.pdb
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\FileEncryptor.genruntimeconfig.cache
+C:\Users\timko\source\repos\FileEncryptor (main project) on work\FileEncryptor\obj\Debug\net9.0-windows\ref\FileEncryptor.dll

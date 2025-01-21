@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace FileEncryptor
+namespace AegisCrypt
 {
     public partial class MainWindow : Window
     {
