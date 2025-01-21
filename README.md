@@ -1,6 +1,6 @@
 # CS-FileEncryptor
 
-![UI Screenshot]([path-to-screenshot.png](https://imgur.com/BEV4kYD))
+![UI Screenshot](screenshot.png)
 
 ## About the Program
 The **CS-FileEncryptor** is a WPF-based tool for securely encrypting and decrypting files. With a user-friendly interface and strong implementation, this program offers:
