@@ -2,6 +2,8 @@
 
 ![UI Screenshot](screenshot.png)
 
+> **Note:** Soon I'll be program my own algorithm that's why I was firstly using AES.
+
 ## About the Program
 The **CS-FileEncryptor** is a WPF-based tool for securely encrypting and decrypting files. With a user-friendly interface and strong implementation, this program offers:
 
