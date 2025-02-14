@@ -26,7 +26,7 @@ The **CS-FileEncryptor** is a WPF-based tool for securely encrypting and decrypt
 
 ## Installation
 1. Go to the [Releases](#).
-2. Download the latest `.exe` file.
+2. Download the latest `.zip` file.
 3. Run the program directly, no installation required.
 
 ---
