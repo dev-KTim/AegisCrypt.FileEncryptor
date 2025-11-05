@@ -2,6 +2,8 @@
 
 ![UI Screenshot](screenshot.png)
 
+## Soon I'll be releasing the new version which is easier to read the code
+
 > **Note:** Soon I'll be program my own algorithm that's why I was firstly using AES.
 
 ## About the Program
